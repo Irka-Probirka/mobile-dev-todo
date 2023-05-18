@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Delete">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/button"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Подробнее"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF7700"
+        android:hint="Название"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/add_about"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:backgroundTint="#FF7700"
+        android:hint="Описание"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FF5722"
+        android:text="Выполнить" />
+
+</LinearLayout>
